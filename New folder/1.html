@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <title>主頁</title>
+      <style>
+        body{
+          background-color:white;
+        }
+      </style>  
+      
+        <link rel="stylesheet" href="home.css" />
+        <link rel="stylesheet" href="main.css" />
+    </head>   
+    <body>
+      <button onclick="topFunction()" id="myBtn" >top </button>
+      
+
+        <div class="navbar" id="mynavbar">
+            <a class="active" href="1.html">主頁</a>
+            <a href="test.html" >體積</a> 
+            <div class="dropdown">
+              <button class="dropbtn">八大行星 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="水星.html">水星</a>
+                <a href="金星.html">金星</a>
+                <a href="地球.html">地球</a>
+                <a href="火星.html">火星</a>
+                <a href="木星.html">木星</a>
+                <a href="土星.html">土星</a>
+                <a href="天王星.html">天王星</a>
+                <a href="海王星.html">海王星</a>
+              </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+            <a href="聯絡我們.html">聯絡我們</a>
+            <a href="首頁.html">登出</a>
+          </div>
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("mynavbar");
+            if (x.className === "navbar") {
+              x.className += " responsive";
+            } else {
+              x.className = "navbar";
+            }
+          }
+
+          var mybutton = document.getElementById("myBtn");
+
+          
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+           mybutton.style.display = "block";
+          } else {
+          mybutton.style.display = "none";
+          }
+        }
+
+
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+          </script>
+        
+        <div class="header">
+          <b><h1>這是一個關於太空的網站</h1><b>
+        </div>
+
+        <div class="container">
+          <img src="space.jpg" alt="space" style="width: 100% ; " >
+          <div class="centered">
+              <h2>太陽系</h2>
+              <h3>太陽系是一個受太陽重力約束在一起的行星系統，包括太陽以及直接或間接圍繞太陽運動的天體</h3>
+              當中，最大的八顆被稱為   
+          <br>
+           <a href="#solar">八大行星</a> 
+          </div>
+            
+          
+        </div>
+        <div id ="solar" style="text-align: center; font-size: 35px;">八大行星
+        </div>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="mercury.jpg" alt="mercury" style="width: 100%;">
+                <div class="content">
+                  <b><h2>水星(Mercury)</h2></b>
+                  質量： 3.285<sup>23</sup> 公斤
+                  <br>
+                  半徑： 2,439.7 公里
+                  <br>
+                  表面積： 74,800,000 平方公里
+                  <br>
+                  體積: 6.083×10<sup>10</sup> 立方公里
+                  <p><a href="水星.html"><button class="button">More</button></a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="venus.jpg" alt="venus" style="width: 100%;">
+                <div class="content">
+                  <h2><b>金星(Venus)</b></h2>
+                  質量： 4.8676×10<sup>24</sup> 公斤
+                  <br>
+                  半徑： 6,051.8 公里
+                  <br>
+                  表面積： 4.60×10<sup>8</sup> 平方公里
+                  <br>
+                  體積: 9.28×10<sup>11</sup> 立方公里
+                  
+                  <p><a href="金星.html"><button class="button" >More</button></a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="earth.jpg" alt="earth" style="width: 100%;">
+                <div class="content">
+                  <h2><b>地球(Earth)</b></h2>
+                  質量： 5.97237×10<sup>24</sup> 公斤
+                  <br>
+                  半徑：  6,371 公里
+                  <br>
+                  表面積： 510,072,000 平方公里
+                  <br>
+                  體積: 1.08321×10<sup>12</sup> 立方公里
+                  
+                  <p><a href="地球.html"><button class="button" href="地球.html">More</button></a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="mars.jpg" alt="mars" style="width: 100%;">
+                <div class="content">
+                  <h2><b>火星(Mars)</b></h2>
+                  質量： 6.418 5×10<sup>23</sup> 公斤
+                  <br>
+                  半徑： 3389.5 公里
+                  <br>
+                  表面積： 1.441×10<sup>8</sup> 平方公里
+                  <br>
+                  體積: 1.631 8×10<sup>11</sup> 立方公里
+                  <p><a href="火星.html"><button class="button">More</button></a></p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="jupiter.jpg" alt="jupiter" style="width: 100%;">
+                <div class="content">
+                  <h2><b>木星(Jupiter)</b></h2>
+                  質量： 1.898<sup>27</sup> 公斤 
+                  <br>
+                  半徑： 69911±6 公里
+                  <br>
+                  表面積： 6.1419×10<sup>10</sup> 平方公里
+                  <br>
+                  體積: 1.4313×10<sup>15</sup> 立方公里
+                  <p><a href="木星.html"><button class="button">More</button></a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="saturn.jpg" alt="saturn" style="width: 100%;">
+                <div class="content">
+                  <h2><b>土星(Saturn)</b></h2>
+                  質量： 5.6846×10<sup>26</sup> 公斤
+                  <br>
+                  半徑： 58,232 公里
+                  <br>
+                  表面積：4.27<sup>10</sup> 平方公里
+                  <br>
+                  體積: 8.2713×10<sup>14</sup> 立方公里
+                  <p><a href="土星.html"><button class="button">More</button></a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="uranus.jpg" alt="uranus" style="width: 100%;">
+                <div class="content">
+                  <h2><b>天王星(Uranus)</b></h2>
+                  質量： 4.8676×10<sup>24</sup> 公斤
+                  <br>
+                  半徑：25,559 ± 4 公里
+                  <br>
+                  表面積： 8.1156×10<sup>9</sup> 平方公里
+                  <br>
+                  體積: 6.833×10<sup>13</sup> 立方公里
+                  <p><a href="天王星.html"><button class="button">More</button></a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="neptune.jpg" alt="neptune" style="width: 100%;">
+                <div class="content">
+                  <h2><b>海王星(Neptune)</b></h2>
+                  質量： 1.024<sup>26</sup> 公斤
+                  <br>
+                  半徑：  24,622 公里
+                  <br>
+                  表面積： 7.618<sup>9</sup> 平方公里
+                  <br>
+                  體積: 6.254×10<sup>13</sup> 立方公里
+                  <p><a href="海王星.html"><button class="button">More</button></a></p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+      </div>
+
+      
+      <div class="footer">
+      <h5>NoCopyright © 2020 project . All Rights Reserved.</h5>
+       
+      </div>
+
+      
+    </body>
+    
+    
+</html>

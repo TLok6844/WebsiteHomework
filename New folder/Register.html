@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript">
+    function print_result(){
+	 if (document.getElementById("tfPwd").value != document.getElementById("tfRPwd").value){
+	 alert ("Password should be same!");
+	 document.getElementById("tfPwd").focus();
+	 return false;
+   }
+   
+
+   function print_result() {   
+   
+   
+    var name = document.f1.name.value;
+	alert ("Name" +name);
+  
+  var gender 
+	if (document.f1.gender[0].checked)
+		gender = document.f1.gender[0].value;
+	else 
+		gender = document.f1.gender[0].value;
+	alert ("gender" +gender);
+    }
+    }
+  </script>
+
+<link rel="stylesheet" href="Register.css" />
+
+</head>
+
+<body>
+  <div id="body">
+  <form name="f1" onSubmit="return print_result()"> 
+  <table>
+      <tr>
+        <td>用戶名稱:</td>
+        <td>
+          <input type="text" name="name" id="tfUser" pattern="^[A-Z][A-Za-z]*$"
+          title="example:CHAN Tai Man" required="required" />
+        </td>
+      </tr>
+
+     <tr>
+        <td>生日日期: </td> 
+          <td>
+           <input type="date" name="Birth" required="required" >
+          </td>
+        
+      </tr>
+      
+     <tr>
+        <td>姓別：</td>
+        <td>
+          <input type="radio" name="gender" value="M" required="required" />Male
+          <input type="radio" name="gender" value="F" />Female
+        </td>  
+      </tr>
+      
+      <tr>
+        <td>電話號碼 :</td>
+        <td>
+          <input type="text" name="tel"   pattern="^[0-9]{8}$">
+        </td>
+      </tr>
+      
+      <tr>
+        <td>密碼: </td> 
+         <td><input type="password" id="tfPwd"  required="required"/>
+        </td>
+      </tr>
+     
+      <tr>
+        <td>重覆密碼 :</td> 
+         <td><input type="password"  id="tfRPwd"  required="required"/>
+        </td>
+      </tr>
+      
+      <tr>  
+        <td>學生證號碼：</td>
+         <td><input type="text" name="SID" title="123456789"pattern="^[0-9]{9}$" required="required"/>
+        </td>
+      </tr>
+    
+
+      
+
+  </table>
+   
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+  </form></div>
+</body>
+</html>

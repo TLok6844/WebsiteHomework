@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="dropdown.css" />
+    <link rel="stylesheet" href="content.css" />
+<title>火星</title>
+</head>
+<style>
+  .header h3 {
+    text-align: right;
+    color: red;
+  }
+  .banner_area {
+    background-image: url("m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center ;
+    position: relative;
+  }
+  </style>
+<body>
+  <button onclick="topFunction()" id="myBtn" >top </button>
+    <div class="navbar" id="mynavbar">
+        <a  href="1.html">主頁</a>
+        <a href="test.html" >體積</a> 
+        <div class="dropdown">
+          <button class="dropbtn">八大行星 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="水星.html">水星</a>
+            <a href="金星.html">金星</a>
+            <a href="地球.html">地球</a>
+            <a class="active" href="火星.html">火星</a>
+            <a href="木星.html">木星</a>
+            <a href="土星.html">土星</a>
+            <a href="天王星.html">天王星</a>
+            <a href="海王星.html">海王星</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+        <a href="聯絡我們.html">聯絡我們</a>
+        <a href="首頁.html">登出</a>
+      </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+      var mybutton = document.getElementById("myBtn");
+
+          
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+ mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+
+  </script>
+  <div class="header">
+    <h1>八大行星</h1>
+    <h3>火星</h3>
+  </div>
+  <div class="banner_area">
+    <div class="banner_text">
+    質量： 6.418 5×10<sup>23</sup> 公斤
+      <hr>
+      <br>
+    半徑： 半徑： 3389.5 公里
+      <hr>
+      <br>
+    表面積：1.441×10<sup>8</sup> 平方公里
+      <hr>
+      <br>
+    體積: 1.6318×10<sup>11</sup> 立方公里
+      <hr>
+      <br>
+    表面重力: 3.693 米/秒²
+      <hr>
+      <br>
+    </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <p>
+        <h1>火星</h1>
+        
+        是離太陽第四近的行星，也是太陽系中僅次於水星的第二小的行星，為太陽系里四顆類地行星之一。
+        火星是太陽系的八大行星中第二小的行星，其質量、體積僅比水星略大。火星的直徑約為地球的一半，自轉軸傾角、自轉週期則與地球相當，但繞太陽公轉周期是地球的兩倍。
+        火星距離地球最近在5400萬公里（最遠達4億公里，探測器需飛行約7個月抵達火星）。
+        火星大氣以二氧化碳為主，既稀薄又寒冷，其表面特徵讓人聯想起月球上的撞擊坑，以及地球上的山谷、沙漠和極地冰蓋。
+        火星地表沙丘、礫石遍佈且沒有穩定的液態水，火星南半球是古老、充滿隕石坑的高地，北半球則是較年輕的平原。
+        火星有兩個天然衛星：火衛一和火衛二，形狀不規則，可能是捕獲的小行星。
+        </p>
+        <p>火星已被無人飛船探索。2013年9月26日，火星探測車好奇號發現火星土壤含有豐富水分，大約為1.5至3重量百分比，顯示火星有足夠的水資源供給未來移民使用。
+          2018年7月25日，在火星冰蓋之下發現一個直徑20公里的冰下湖。這是太空科學家在火星上探測到的首個大型液態水體。
+      </p>
+    </div> 
+    <div class="box">
+      <p>
+        <h1>物理特性</h1>
+        
+        以直徑、質量、表面重力來說，火星約介於地球和月球中間：火星直徑約為地球的一半、月球的兩倍，質量約為地球的九分之一、月球的九倍，表面重力約為地球的38%、
+        月球的2.4倍。火星體積約為地球的15%，質量約為11%，表面積略小於地球陸地面積，密度則比其他三顆類地行星還要小很多。2012年8月，
+        加利福尼亞大學洛杉磯分校的教授尹安在分析了100張來自火星勘測軌道飛行器的衛星圖片後發現，火星有類似地球主要板塊劃分的構造特點。
+        </p>
+        <p>
+        長期觀測火星發現，南半球地勢比北半球高，北極盆地顯示有過大撞擊，推論約45億年前遭冥王星大小天體撞擊之後，不但形成火衛一和火衛二，亦逼使內核熱能散溢出上地幔、內部攪拌逐漸停止，無法以發電機原理持續對流生成磁場。
+        由於火星比地球小，相對表面積與體積成反比而較大，因此火星核心也冷卻得比地球的快，地質活動趨緩，磁場和板塊運動消逝，太陽風帶走大氣變薄導致氣壓偏低，而造成液態水在低溫就會沸騰、無法穩定存在。
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>內部構造</h1>
+       
+        火星基本上是沙漠行星，地表沙丘、礫石遍佈，沒有穩定的液態水體。二氧化碳為主的大氣既稀薄又寒冷，沙塵懸浮其中，每年常有塵暴發生。與地球相比，地質活動不活躍。
+      </p>
+        <p>
+          火星地表地貌大部份於遠古較活躍的時期形成，充滿撞擊坑，有密佈的隕石坑、火山與峽谷，包括太陽系最高的山：奧林帕斯山和最大的峽谷：水手號峽谷。
+        另一個獨特的特徵是南北半球的明顯差別：南方是古老、充滿隕石坑的高地，北方則是較年輕的平原，兩極皆有主要以水冰組成的極冠，而上覆的乾冰會隨季節消長。
+        </p>
+        <p>
+          現今火星風成地形遍佈，如吹蝕、磨蝕等風蝕作用，和沙塵遇地形阻礙而填積、侵積等風積作用。前者形成如廣泛分佈於梅杜莎槽溝層的風蝕脊，後者則如大瑟提斯高原上撞擊坑下風處的沙塵堆積，和撞擊坑中常見的沙丘。
+      </p>
+    </div>
+  </div>
+  <div class="footer">
+    <h5>NoCopyright © 2020 project . All Rights Reserved.</h5>
+     
+    </div>
+
+</body>
+</html>

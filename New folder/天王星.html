@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="dropdown.css" />
+  <link rel="stylesheet" href="content.css" />
+<title>天王星</title>
+</head>
+<style>
+  .header h3 {
+    text-align: right;
+    color:#6699CC;
+  }
+  .banner_area {
+    background-image: url("u.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center ;
+    position: relative;
+  }
+  </style>
+<body>
+  <button onclick="topFunction()" id="myBtn" >top </button>
+  <div class="navbar" id="mynavbar">
+    <a  href="1.html">主頁</a>
+    <a href="test.html" >體積</a> 
+    <div class="dropdown">
+      <button class="dropbtn">八大行星 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="水星.html">水星</a>
+        <a href="金星.html">金星</a>
+        <a href="地球.html">地球</a>
+        <a href="火星.html">火星</a>
+        <a href="木星.html">木星</a>
+        <a href="土星.html">土星</a>
+        <a class="active" href="天王星.html">天王星</a>
+        <a href="海王星.html">海王星</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+    <a href="聯絡我們.html">聯絡我們</a>
+    <a href="首頁.html">登出</a>
+  </div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("mynavbar");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  }
+  var mybutton = document.getElementById("myBtn");
+
+          
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+ mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+
+  </script>
+  <div class="header">
+    <h1>八大行星</h1>
+    <h3>天王星</h3>
+  </div>
+  <div class="banner_area">
+    <div class="banner_text">
+    質量： 4.8676×10<sup>24</sup> 公斤
+      <hr>
+      <br>
+    半徑： 25,559 ± 4 公里
+      <hr>
+      <br>
+    表面積：8.1156×10<sup>9</sup> 平方公里
+      <hr>
+      <br>
+    體積: 6.833×10<sup>13</sup> 立方公里
+      <hr>
+      <br>
+    表面重力: 8.69 米/秒²
+      <hr>
+      <br>
+    </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <p>
+        <h1>天王星</h1>
+        
+        從太陽系由內向外的第七顆行星，其體積在太陽系排名第三（比海王星大），質量排名第四（比海王星輕）。
+        天王星和海王星的內部和大氣構成不同於更巨大的氣體巨星－木星和土星。同樣的，天文學家設立不同的「冰巨行星」分類來安置她們。
+        天王星大氣的主要成分是氫和氦，還包含較高比例的由水、氨、甲烷等結成的「冰」，與可以探測到的碳氫化合物。天王星是太陽系內大氣層最冷的行星，最低溫度只有49K（−224℃）。其外部的大氣層具有複雜的雲層結構，水在最低的雲層內，而甲烷組成最高處的雲層。
+        相比較而言，天王星的內部則是由冰和岩石所構成。
+      </p>
+      <p>
+        如同其他的巨行星，天王星也有環系統、磁層和許多衛星。天王星的環系統在行星中非常獨特，因為它的自轉軸斜向一邊，幾乎就躺在公轉太陽的軌道平面上，因而南極和北極也躺在其他行星的赤道位置上。
+        從地球看，天王星的環像是環繞著標靶的圓環，它的衛星則像環繞著鐘的指針。隨著天王星接近晝夜平分點，地球上的觀測者發現天王星有季節變化的跡象和漸增的天氣活動。
+        天王星上的風速可以達到每秒250公尺。
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>物理特性</h1>
+        
+        天王星主要是由岩石與各種成分不同的水冰物質所組成，其組成主要元素為氫（83%），其次為氦（15%）。在許多方面天王星（海王星也是）與大部分都是氣態氫組成的木星與土星不同，
+        其性質比較接近木星與土星的地核部份，而沒有類木行星包圍在外的巨大液態氣體表面（主要是由金屬氫化合物氣體受重力液化形成）。天王星並沒有土星與木星那樣的岩石內核，它的質量平均分布在整個星球。直接以肉眼觀察，天王星的表面呈現藍綠色，這是因為它的甲烷大氣吸收了大部分的紅色光譜所導致。
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>內部構造</h1>
+       
+        天王星的質量大約是地球的14.5倍，是類木行星中質量最小的，它的密度是1.29公克/公分³只比土星高一些。直徑雖然與海王星相似（大約是地球的4倍），但質量較低。這些數值顯示它主要由各種各樣揮發性物質，例如水、氨和甲烷組成。天王星內部冰的總含量還無法精確的知道，根據選擇模型的不同而有不同的結果，但是總是在地球質量的9.3至13.5倍之間。氫和氦在全體中只佔很小的部份，大約在0.5至1.5地球質量。剩餘的質量（0.5至3.7地球質量）才是岩石物質。
+      </p>
+      <p>
+        天王星的標準模型結構包括三個層面：在中心是岩石的核，中間是冰的地函，最外面是氫與氦組成的外殼。
+        相較之下核非常的小，只有0.55地球質量，半徑不到天王星的20%；地函則是個龐然大物，質量大約是地球的13.4倍；而最外層的大氣層則相對不明確，大約佔有剩餘20%的半徑，但質量大約只有地球的0.5倍。
+        冰的地函實際上並不是由一般意義上所謂的冰組成，而是由水、氨和其他揮發性物質組成的熱且稠密的流體。這些流體有高導電性，有時被稱為水-氨的海洋。天王星和海王星的大塊結構與木星和土星相當的不同，冰的成分超越氣體，因此有理由將它們分開另成一類為冰巨行星。
+      </p>
+      <p>
+        天王星對流層頂的溫度最低溫度紀錄只有49K，使天王星成為太陽系溫度最低的行星，比海王星還要冷。
+      </p>
+    </div>
+  </div>
+  <div class="footer">
+    <h5>NoCopyright © 2020 project . All Rights Reserved.</h5>
+     
+    </div>
+
+</body>
+</html>

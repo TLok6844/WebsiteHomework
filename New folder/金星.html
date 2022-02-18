@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="dropdown.css" />
+    <link rel="stylesheet" href="content.css" />
+<title>金星</title>
+</head>
+<style>
+  .header h3 {
+    text-align: right;
+    color: white;
+  }
+  .banner_area {
+    background-image: url("v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center ;
+    position: relative;
+  }
+  </style>
+<body>
+  <button onclick="topFunction()" id="myBtn" >top </button>
+    <div class="navbar" id="mynavbar">
+        <a  href="1.html">主頁</a>
+        <a href="test.html" >體積</a> 
+        <div class="dropdown">
+          <button class="dropbtn">八大行星 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="水星.html">水星</a>
+            <a class="active" href="金星.html">金星</a>
+            <a href="地球.html">地球</a>
+            <a href="火星.html">火星</a>
+            <a href="木星.html">木星</a>
+            <a href="土星.html">土星</a>
+            <a href="天王星.html">天王星</a>
+            <a href="海王星.html">海王星</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+        <a href="聯絡我們.html">聯絡我們</a>
+        <a href="首頁.html">登出</a>
+      </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+      var mybutton = document.getElementById("myBtn");
+
+          
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+ mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+
+  </script>
+  <div class="header">
+    <h1>八大行星</h1>
+    <h3>金星</h3>
+  </div>
+  <div class="banner_area">
+    <div class="banner_text">
+    質量： 4.8676×10<sup>24</sup> 公斤
+      <hr>
+      <br>
+    半徑： 6,051.8 公里
+      <hr>
+      <br>
+    表面積：4.60×10<sup>8</sup> 平方公里
+      <hr>
+      <br>
+    體積: 9.28×10<sup>11</sup> 立方公里
+      <hr>
+      <br>
+    表面重力: 8.87 米/秒²
+      <hr>
+      <br>
+    </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <p>
+        <h1>金星</h1>
+        
+        在太陽系的八大行星中，是從太陽向外的第二顆行星，軌道公轉週期為224.7地球日，它沒有天然的衛星。
+        由於金星是在地球內側的內行星，它永遠不會遠離太陽運行：它的離日度最大值為47.8°。金星是一顆類地行星，因為它的大小、質量、體積與到太陽的距離，均與地球相似，所以經常被稱為地球的姊妹星。
+        它有著四顆類地行星中最濃厚的大氣層，其中超過96%都是二氧化碳，金星表面的大氣壓力是地球的92倍。其表面的平均溫度高達735 K（462 °C；863 °F），是太陽系中最熱的行星，比最靠近太陽的水星還要熱。
+        金星沒有將碳吸收進入岩石的碳循環，似乎也沒有任何有機生物來吸收生物量的碳。金星被一層高反射、不透明的硫酸雲覆蓋著，阻擋了來自太空中，可能抵達表面的可見光。
+        它在過去可能擁有海洋，並且外觀與地球極為相似，但是隨著失控的溫室效應導致溫度上升而全部蒸發掉了。
+        金星表面是乾燥的荒漠景觀，點綴著定期被火山刷新的岩石。 
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>表面地質</h1>
+        
+        大部分的金星表面似乎都是火山活動形成的，金星的火山數量是地球的好幾倍，它擁有167座直徑超過100公里的大型火山。
+        地球上，只有夏威夷大島的複雜火山的大小可以和金星比較。這不是因為金星的火山比地球活躍，而是因為它的地殼比地球古老。地球的海洋地殼在板塊的邊界不斷的俯衝而下，使得平均年齡小於一億年，而金星表面的年齡估計在3至6億年間。
+        金星上有近千個撞擊坑均勻的分布在其表面。
+        在金星，85%的撞擊坑保持著原始的狀態。撞擊坑的數量，以及其保存在完好的狀態下，顯示這顆行星大約在3億年前經歷了一次全球性的事件，隨後火山活動的即開始衰減。
+        星星凹面的坑穴大小從3公里至280公里。
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>內部構造</h1>
+       
+        由於沒有地震或轉動慣量的資料，因此只有少許的直接資料可用於了解金星內部的結構和地質化學。與地球相似的大小和密度，顯示它和地球有著相似的共同內部構造：核、地函和地殼。像地球一樣，金星的核心至有一部分是液體，因為這兩顆行星冷卻的速率是相同的。體積略小的金星顯示出內部深處的壓力亦比地球的略小一些。這兩顆行星之間主要的區別在於金星缺乏板塊存在的證據，可能是因為它的外殼太堅硬，隱沒帶缺乏水而使它沒有黏度。這樣的結果使行星的熱難以散逸，阻止了它的冷卻，並提供其內部缺乏生成磁場機制的可能解釋。相反的，金星可能以週期性的重鋪地殼來散逸它內部的熱。
+      </p>
+    </div>
+  </div>
+  <div class="footer">
+    <h5>NoCopyright © 2020 project . All Rights Reserved.</h5>
+     
+    </div>
+
+</body>
+</html>

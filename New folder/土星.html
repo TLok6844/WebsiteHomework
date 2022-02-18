@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="dropdown.css" />
+    <link rel="stylesheet" href="content.css" />
+<title>土星</title>
+<style>
+.header h3 {
+  text-align: right;
+  color: darkkhaki;
+}
+.banner_area {
+  background-image: url("s.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center ;
+  position: relative;
+}
+</style>
+
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" >top </button>
+  <div class="navbar" id="mynavbar">
+    <a  href="1.html">主頁</a>
+    <a href="test.html" >體積</a> 
+    <div class="dropdown">
+      <button class="dropbtn" >八大行星 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="水星.html">水星</a>
+        <a href="金星.html">金星</a>
+        <a href="地球.html">地球</a>
+        <a href="火星.html">火星</a>
+        <a href="木星.html">木星</a>
+        <a class="active" href="土星.html">土星</a>
+        <a href="天王星.html">天王星</a>
+        <a href="海王星.html">海王星</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+    <a href="聯絡我們.html">聯絡我們</a>
+    <a href="首頁.html">登出</a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+     }
+     
+     var mybutton = document.getElementById("myBtn");
+
+          
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+ mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+
+  </script>
+  <div class="header">
+    <h1>八大行星</h1>
+    <h3>土星</h3>
+  </div>
+  <div class="banner_area">
+    <div class="banner_text">
+    質量： 5.6846×10<sup>26</sup> 公斤
+      <hr>
+      <br>
+    半徑： 58,232 公里
+      <hr>
+      <br>
+    表面積：4.27<sup>10</sup> 平方公里
+      <hr>
+      <br>
+    體積: 8.2713×10<sup>14</sup> 立方公里
+      <hr>
+      <br>
+    表面重力: 8.96 米/秒²
+      <hr>
+      <br>
+    </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <p>
+        <h1>土星</h1>
+        
+        為太陽系八大行星之一，至太陽距離（由近到遠）位於第六、
+        體積則僅次於木星，並與木星同屬氣體（類木）巨星。
+        土星主要由氫組成，還有少量的氦與微痕元素，內部的核心包括岩石和冰，
+        外圍由數層金屬氫和氣體包覆着。土星的風速高達1,800公里/時，風速明顯比木星快。
+        土星的行星磁場強度介於地球和更強的木星之間。土星有一個顯著的環系統，主要的成分是冰的微粒和較少數的岩石殘骸以及塵土。
+        已經確認的土星的衛星有82顆，是八大行星中最多。其中，土衛六是土星系統中最大和太陽系中第二大的衛星
+        （半徑2575KM，太陽系最大的衞星是木星的木衛三，半徑2634KM），
+        比行星中的水星還要大；並且土衛六是唯一擁有明顯大氣層的衛星。
+        還有，土星距離地球13億千米。地球一天等於23小時56分4.1秒，土星一天等於10小時42分0秒，是地球一天的大約九分之四。
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>物理特性</h1>
+        
+        由於其低密度、高速自轉和流體的可變性，土星的外形呈現為一個橢球體，也就是極軸相對扁平而赤道相對突出，
+        它的赤道直徑和兩極直徑之比相差大約10%（前者120,536公里，後者108,728公里）。其它氣體行星雖然也是橢球體，
+        但突出程度都較小。雖然土星核心的密度遠高於水，但由於存在較厚的大氣層，土星仍是太陽系中唯一密度低於水的行星，
+        它的比重是0.69 公克/公分³。土星的質量是地球的95倍，相較之下木星質量是地球的318倍，但木星的直徑大約僅為土星的1.21倍。
+        木星和土星一起在太陽系持有總行星質量的92%。
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>內部構造</h1>
+       
+        土星被稱為氣態行星，但它並不完全是氣態的。行星主要包括氫氣，在密度為0.01 g/cm3以上時氫氣變成了非理想液體。
+        此密度被達到在包含99.9％土星質量的半徑。從行星內部直到的核心的溫度，壓力和密度全都是穩步上升，使在行星的更深層導致氫氣轉變成金屬。
+        土星的內部結構仍被認為與木星相似，即有一個被氫和氦包圍着的小核心。岩石核心的構成與地球相似但密度更高。在核心之上，有更厚的液體金屬氫層，
+        然後是數層的液態氫和氦層，在最外層是厚達1,000 公里的大氣層，也存在着各種型態冰的蹤跡。估計核心區域的質量大約是地球質量的9–22倍。
+        土星有非常熱的內部，核心的溫度高達11 700 °C，並且輻射至太空中的能量是它接受來自太陽的能量的2.5倍。
+        在土星內部深處，液態氦的液滴如雨般穿過較輕的氫，在此過程中不斷地通過摩擦而產生熱。
+      </p>
+    </div>
+  </div>
+  <div class="footer">
+    <h5>NoCopyright © 2020 project . All Rights Reserved.</h5>
+     
+    </div>
+
+</body>
+</html>

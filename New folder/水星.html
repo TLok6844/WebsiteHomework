@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="dropdown.css" />
+    <link rel="stylesheet" href="content.css" />
+<title>水星</title>
+</head>
+<style>
+  .header h3 {
+    text-align: right;
+    color:yellow;
+  }
+  .banner_area {
+    background-image: url("me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center ;
+    position: relative;
+  }
+  </style>
+<body>
+  <button onclick="topFunction()" id="myBtn" >top </button>
+    <div class="navbar" id="mynavbar">
+        <a  href="1.html">主頁</a>
+        <a href="test.html" >體積</a> 
+        <div class="dropdown">
+          <button class="dropbtn">八大行星 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a class="active" href="水星.html">水星</a>
+            <a href="金星.html">金星</a>
+            <a href="地球.html">地球</a>
+            <a href="火星.html">火星</a>
+            <a href="木星.html">木星</a>
+            <a href="土星.html">土星</a>
+            <a href="天王星.html">天王星</a>
+            <a href="海王星.html">海王星</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+        <a href="聯絡我們.html">聯絡我們</a>
+        <a href="首頁.html">登出</a>
+      </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+      var mybutton = document.getElementById("myBtn");
+
+          
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+ mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+
+  </script>
+  <div class="header">
+    <h1>八大行星</h1>
+    <h3>水星</h3>
+  </div>
+  <div class="banner_area">
+    <div class="banner_text">
+    質量：  3.285<sup>23</sup> 公斤
+      <hr>
+      <br>
+    半徑：  2,439.7 公里
+      <hr>
+      <br>
+    表面積：74,800,000 平方公里
+      <hr>
+      <br>
+    體積: 6.083×10<sup>10</sup> 立方公里
+      <hr>
+      <br>
+    表面重力: 3.7  米/秒²
+      <hr>
+      <br>
+    </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <p>
+        <h1>水星</h1>
+        
+        水星是太陽系的八大行星中最小和最靠近太陽的行星。軌道週期是87.969 地球日，
+        從地球上看，它大約116天左右與地球會合一次，公轉速度遠遠超過太陽系的其它星球。
+        由於大氣層極為稀薄，無法有效保存熱量，水星表面晝夜溫差極大，為太陽系行星之最。
+        白天時赤道地區溫度可達432°C，夜間可降至-172°C。極區氣溫則終年維持在-172°C以下。
+        水星表面充滿了大大小小的坑穴，外觀看起來與月球和其他衛星相似，顯示它的地質在數十億年來都處於非活動狀態。
+        </p>
+        <p>
+          水星無四季變化。它也是唯一與太陽軌道共振的行星。相對於恆星，它每自轉三圈的時間與它在軌道上繞行太陽兩圈的時間幾乎完全相等。
+          從太陽看水星，參照它的自轉與軌道上的公轉運動，是每兩個水星年才一個太陽日。因此，對一位在水星上的觀測者來說，一天相當於兩年。
+          因為水星的軌道位於地球的內側（與金星相同），所以它只能在晨昏之際與白天出現在天空中，而不會在子夜前後出現。同時，也像金星和月球一樣，
+          在它繞著軌道相對於地球，會呈現一系列完整的相位。雖然從地球上觀察，水星會是一顆很明亮的天體，但它比金星更接近太陽，因此比金星還難看見。
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>內部構造</h1>
+        
+        水星是太陽系內與地球相似的4顆類地行星之一，有著與地球一樣的岩石個體。它在赤道的半徑為2,439.7公里，是太陽系中最小的行星，
+        水星甚至比一些巨大的天然衛星，像是甘尼米德和泰坦，還要小 － 雖然質量較大。水星由大約70%的金屬和30%的矽酸鹽材料組成，水星的密度是每立方公分5.427公克，在太陽系中是第二高的，僅次於地球的每立方公分5.515公克。
+      </p>
+      <p>
+        地質學家估計水星的核心佔有體積的42%；地球的核心只佔體積的17%。水星富鐵的核心占據了其總質量的至少60%，它的半徑更是達到了水星半徑的四分之三。最近的研究強烈支持水星有一個熔融的核心，包圍著核心的是500–700公里厚的矽酸鹽地函。
+        太陽系類地行星中，只有水星和地球擁有全球性的磁場。
+        </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>表面地質</h1>
+       
+        水星的表面與月球很相似，呈現出像海的廣大平原和大量的撞擊坑，顯示它數十億年來都處於非地質活動狀態。
+        水星擁有山脊 (有時也稱為皺脊)，像月球的高地、山脈 (山)、平原或平原低地 、懸崖  和谷地 (山谷)。
+        水星坑穴的範圍，在直徑上從小型的碗型腔到跨越數百公里的多環撞擊坑。從相對新鮮亮麗到高度退化火山口的殘餘物，
+        展示了所有退化階段的現象。水星的撞擊坑與月球的有著微妙的差異，它們的噴發物覆蓋的區域小得多，這顯示水星有較強的表面重力。
+        已知最大的隕石坑之一是卡洛里盆地，直徑為1,550公里。撞擊並創建卡洛里盆地的影響是如此的強大，它造成的火山熔岩噴發，留下高度在2公里以上的同心圓環圍繞著隕石坑。
+      </p>
+      <p>
+        水星有兩種地質顯著不同的平原。在坑穴之間，起伏平緩、多丘陵的平原，是水星表面可見最古老的地區，
+        早於猛烈的火山口地形。這些埋藏著隕石坑的平原似乎已湮滅許多較早的隕石坑，並且缺乏直徑在30公里以下，以及更小的隕石坑。還不清楚它們是起源於火山還是撞擊，這些埋藏著隕石坑的平原大致是均勻的分布在整個行星的表面。
+      </p>
+    </div>
+  </div>
+  <div class="footer">
+    <h5>NoCopyright © 2020 project . All Rights Reserved.</h5>
+     
+    </div>
+
+</body>
+</html>

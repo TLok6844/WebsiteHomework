@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="dropdown.css" />
+  <link rel="stylesheet" href="content.css" />
+<title>地球</title>
+<style>
+  .header h3 {
+    text-align: right;
+    color: blue;
+  }
+  .banner_area {
+    background-image: url("e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center ;
+    position: relative;
+  }
+  </style>
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" >top </button>
+  <div class="navbar" id="mynavbar">
+    <a  href="1.html">主頁</a>
+    <a href="test.html" >體積</a> 
+    <div class="dropdown">
+      <button class="dropbtn">八大行星 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="水星.html">水星</a>
+        <a href="金星.html">金星</a>
+        <a class="active" href="地球.html">地球</a>
+        <a href="火星.html">火星</a>
+        <a href="木星.html">木星</a>
+        <a href="土星.html">土星</a>
+        <a href="天王星.html">天王星</a>
+        <a href="海王星.html">海王星</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+    <a href="聯絡我們.html">聯絡我們</a>
+    <a href="首頁.html">登出</a>
+  </div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("mynavbar");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  }
+  var mybutton = document.getElementById("myBtn");
+
+          
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+ mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+
+  </script>
+  <div class="header">
+    <h1>八大行星</h1>
+    <h3>地球</h3>
+  </div>
+  <div class="banner_area">
+    <div class="banner_text">
+      質量： 5.97237×10<sup>24</sup> 公斤
+      <hr>
+      <br>
+      半徑：  6,371 公里
+      <hr>
+      <br>
+      表面積： 510,072,000 平方公里
+      <hr>
+      <br>
+      體積: 1.08321×10<sup>12</sup> 立方公里
+      <hr>
+      <br>
+    表面重力: 9.807 米/秒²
+      <hr>
+      <br>
+    </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <p>
+        <h1>地球</h1>
+        
+        是太陽系中由內及外的第三顆行星，距離太陽149 597 890.7公里/1天文單位，是宇宙中人類已知唯一存在生命的天體，
+        也是人類居住的星球，共有76.6億人口。地球同時進行自轉和公轉運動，分別產生了晝夜及四季的變化更替，一太陽日自轉一周，
+        一太陽年公轉一周。地球僅有一顆自然衛星，即月球。地球表面有71%的面積被水覆蓋，稱為海洋或湖或河流，其餘是陸地板塊組成的大洲和島嶼，
+        表面分布河流和湖泊等水源。南極的冰蓋及北極存有冰。主體包括岩石圈、地函、熔融態金屬的外地核以及固態金屬的內地核。
+        擁有由外地核產生的地磁場。外部被氣體包圍，稱為大氣層，主要成分為氮、氧、二氧化碳、氬。
+      </p>
+        <p>地球曾存在過的50億種物種中，已經絕滅的占約99%，據統計，現今存活的物種大約有1,200至1,400萬個，其中有記錄證實存活的物種120萬個，
+        而餘下的86%尚未被正式發現。有科學家認為現今地球上大概共出現過1兆種物種，其中人類正式發現的僅占十萬分之一。
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>物理特性</h1>
+        
+        地球大致呈橢球形。地球自轉的效應使得沿貫穿兩極的地軸方向稍扁，赤道附近略有隆起。從地心出發，地球赤道半徑比極半徑高了43公里（27英里）。
+        因此，地球表面離地球質心最遠之處並非海拔最高的珠穆朗瑪峰，而是位於赤道上的厄瓜多欽博拉索山的山峰[102][103][104][105]。地球的參考橢球體平均直徑約為12,742公里（7,918英里），
+        約等於(40,000 km)/π，這個整數並非巧合，而是因為長度單位米的最初定義是經過法國巴黎的經線上赤道與北極點距離的一千萬分之一。
+
+由於局部地勢有所起伏，地球與理想橢球體略有偏離，不過從行星尺度看，這些起伏和地球半徑相比很小，最大偏離也只有0.17%，位於海平面以下10,911公尺（35,797英尺）的馬利安納海溝與海拔8,844公尺（29,016英尺）的珠穆朗瑪峰只產生0.14%的偏離。
+若把地球縮到撞球大小，地球上像大型山脈和海溝那樣的地方摸上去就像微小瑕疵一樣，而其他大部分地區，包括北美大平原和深海平原摸上去則更加光滑。
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>內部構造</h1>
+       
+        地球內部如同其他類地行星一樣，可根據化學性質或物理（流變學）性質分為若干層。然而，地球的內、外核具有明顯的區別，這是其他類地行星所沒有的特徵。地球外層是由矽酸鹽礦物組成的地殼，下面又有一層黏稠固體組成的地函。
+        地函和地殼之間的分界是莫氏不連續面。地殼的厚度隨位置的不同而不同，從海底的6公里到陸地的30至50公里不等。地殼以及地函較冷、較堅硬的上層合稱為岩石圈，板塊也是在這個區域形成的。岩石圈以下是黏度較低的軟流圈，岩石圈就在軟流圈上方滑動。
+        地函晶體結構的重大變化出現在地表以下410至660公里之間的位置，是分隔上地函及下地函的過渡區。在地函以下，是分隔地函和地核的核幔邊界（古氏不連續面），再往下是黏度非常低的液體外地核，最裡面是固體的內地核。
+        內地核旋轉的角速度可能較地球其他部份要快一些，每年約領先0.1–0.5°。內地核半徑1,220公里，約為地球半徑的1/5。
+      </p>
+    </div>
+  </div>
+  <div class="footer">
+    <h5>NoCopyright © 2020 project . All Rights Reserved.</h5>
+     
+    </div>
+
+</body>
+</html>

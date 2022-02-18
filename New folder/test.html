@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="2.css">
+  </head>
+  <body >
+    <div class="navbar" id="mynavbar">
+      <a  href="1.html">主頁</a>
+      
+    <a href="test.html" class="active">體積</a> 
+      
+      <div class="dropdown">
+        <button class="dropbtn">八大行星 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="水星.html">水星</a>
+          <a href="金星.html">金星</a>
+          <a href="地球.html">地球</a>
+          <a href="火星.html">火星</a>
+          <a href="木星.html">木星</a>
+          <a href="土星.html">土星</a>
+          <a href="天王星.html">天王星</a>
+          <a href="海王星.html">海王星</a>
+        </div>
+        
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+  
+   <a href="聯絡我們.html">聯絡我們</a>
+   <a href="首頁.html">登出</a>
+    </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("mynavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+    </script>
+    <div class="container">
+      <div class="timeline">
+        <ul>
+          <li>
+            <div class="timeline-content">
+              <h1>木星</h1>
+                <p>1321個地球(1.4313×10<sup>15</sup> 立方公里)</p>
+            <div>
+          </li>
+          <li>
+            <div class="timeline-content">
+              <h1>土星</h1>               
+                <p>755個地球(8.2713×10<sup>14</sup> 立方公里)</p>
+            <div>
+          </li>
+          <li>
+            <div class="timeline-content">
+              <h1>天王星</h1>
+                <p>63個地球(6.833×10<sup>13</sup> 立方公里)</p>
+            <div>
+          </li>
+          <li>
+            <div class="timeline-content">
+              <h1>海王星</h1>
+                <p>	58個地球(6.254×10<sup>13</sup> 立方公里)</p>
+            <div>
+          </li>
+          <li>
+            <div class="timeline-content">
+              <h1>地球</h1>
+                <p>(1.08321×10<sup>12</sup> 立方公里)</p>
+            <div>
+          </li>
+          <li>
+            <div class="timeline-content">
+              <h1>金星</h1>
+                <p>0.857個地球(9.28×10<sup>11</sup> 立方公里)</p>
+            <div>
+          </li>
+          <li>
+            <div class="timeline-content">
+              <h1>火星</h1>
+                <p>0.151個地球(1.6318×10<sup>11</sup> 立方公里)</p>
+            <div>
+          </li>
+          <li>
+            <div class="timeline-content">
+              <h1>水星</h1>
+                <p>	0.056個地球(6.083×10<sup>10</sup> 立方公里)</p>
+            <div>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+    <div class="footer">
+      <h5>NoCopyright © 2020 project . All Rights Reserved.</h5>
+       
+    </div>
+
+</body>
+</html>

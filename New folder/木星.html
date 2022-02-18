@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="dropdown.css" />
+    <link rel="stylesheet" href="content.css" />
+<title>木星</title>
+<style>
+  .header h3 {
+    text-align: right;
+    color:brown;
+  }
+  .banner_area {
+    background-image: url("j.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center ;
+    position: relative;
+  }
+  </style>
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" >top </button>
+    <div class="navbar" id="mynavbar">
+        <a  href="1.html">主頁</a>
+        <a href="test.html" >體積</a> 
+        <div class="dropdown">
+          <button class="dropbtn">八大行星 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="水星.html">水星</a>
+            <a href="金星.html">金星</a>
+            <a href="地球.html">地球</a>
+            <a href="火星.html">火星</a>
+            <a class="active" href="木星.html">木星</a>
+            <a href="土星.html">土星</a>
+            <a href="天王星.html">天王星</a>
+            <a href="海王星.html">海王星</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+        <a href="聯絡我們.html">聯絡我們</a>
+        <a href="首頁.html">登出</a>
+      </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+      var mybutton = document.getElementById("myBtn");
+
+          
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+ mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+
+  </script>
+  <div class="header">
+    <h1>八大行星</h1>
+    <h3>木星</h3>
+  </div>
+  <div class="banner_area">
+    <div class="banner_text">
+    質量： 1.898<sup>27</sup> 公斤
+      <hr>
+      <br>
+    半徑： 69911±6 公里
+      <hr>
+      <br>
+    表面積：6.1419×10<sup>10</sup> 平方公里
+      <hr>
+      <br>
+    體積: 1.4313×10<sup>15</sup> 立方公里
+      <hr>
+      <br>
+    表面重力: 24.79 米/秒²
+      <hr>
+      <br>
+    </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <p>
+        <h1>木星</h1>
+        
+        是距離太陽第五近的行星，也是太陽系中體積最大的行星，目前已知有79顆衛星。木衛三是其中最大的一顆，其直徑大於行星中的水星。
+        木星是顆巨行星，質量是太陽的千分之一，但卻是太陽系其他行星質量總和的2.5倍。太陽系的行星中，木星和土星是氣體巨星（天王星和海王星是冰巨星）。
+      </p>
+      <p>
+        木星的主要成分是氫，但只佔十分之一分子數量的氦，卻佔了總質量的四分之一；它可能有岩石的核心和重元素，
+        但是像其他的巨行星一樣，木星沒有可以明確界定的固體表面。由於快速地自轉，木星的外觀呈現扁球體（赤道附近有輕微但明顯可見的凸起）。
+        外面的大氣層依緯度成不同的區與帶，在彼此的交界處有湍流和風暴作用著。最顯著的例子就是大紅斑，已知是在17世紀第一次被望遠鏡見到，持續至今未曾停歇過的巨大風暴。
+        環繞著木星的還有微弱的行星環和強大的磁層，包括4顆1610年發現的伽利略衛星
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>成分</h1>
+        
+        木星大氣層上層的成分以氣體分子的體積百分比大約88-92%是氫，8-12%是氦。因為氦的原子量是氫的4倍，當以質量描述組成時，不同原子量的元素就會有不同的比例。
+        木星的大氣層大約75%的質量是氫，24%的質量是氦，剩餘的1%是其它的元素。內部包含密度較高的元素，大致是71%的氫，24%的氦，和5%其它的元素。大氣中含有微量的甲烷、水蒸氣、氨和矽基化合物。也有微量的碳、乙烷、硫化氫、氖、氧、磷化氫和硫，最外層的大氣含有結晶的氨。經由紅外線和紫外線的測量，也發現有微量的苯和其它的烴類。
+      </p>
+      <p>
+        大氣中氫和氦的比例接近理論上的原始太陽星雲組成。氖在大氣層上層僅佔百萬分之二十，大約是太陽中豐度的十分之一。氦也幾乎耗盡，大約只有太陽組成的80%左右。這種減少是這些元素沉降到行星內部的結果。較重的惰性氣體在木星大氣層中的豐度是太陽的2-3倍[來源請求]。
+        依據光譜，土星的組成被認為類似於木星，但其它的巨行星，天王星和海王星有著相對較少的氫與氦。由於缺乏直接深入大氣層的探測器，除了外層的大氣層外，缺乏內部更重元素豐度的精確數值。
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        <h1>內部構造</h1>
+       
+        木星被認為有個由元素混合的緻密核心，被一層含有少量氦，主要是氫元素的液態金屬氫包覆著。
+        除了這個基本的輪廓，不確定的成分還是相當多。核心經常被描述為岩石，但是其詳細的成分是未知的，而且在這種深度下的溫度、壓力、和材料的性質也都不清楚。
+        在1997年，有人建議用重力法測量是否存在著核心，顯示核心大約有12至45地球質量，約占木星總質量的4%至14%。
+         行星模型認為在行星形成的歷史上，木星至少有一段時間有個夠大的岩石或冰的核心，才可以從原始太陽星雲收集到足夠大量的氫和氦。
+      </p>
+    </div>
+  </div>
+  <div class="footer">
+    <h5>NoCopyright © 2020 project . All Rights Reserved.</h5>
+     
+    </div>
+
+</body>
+</html>

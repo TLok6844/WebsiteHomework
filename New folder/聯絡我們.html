@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="聯絡我們.css" />
+    <style>
+      
+      </style>
+<title>聯絡我們</title>
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" >top </button>
+  <div class="navbar" id="mynavbar">
+    <a  href="1.html">主頁</a>
+    <a href="test.html" >體積</a> 
+    <div class="dropdown">
+      <button class="dropbtn" >八大行星 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="水星.html">水星</a>
+        <a href="金星.html">金星</a>
+        <a href="地球.html">地球</a>
+        <a href="火星.html">火星</a>
+        <a href="木星.html">木星</a>
+        <a  href="土星.html">土星</a>
+        <a href="天王星.html">天王星</a>
+        <a href="海王星.html">海王星</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+    <a href="聯絡我們.html" class="active">聯絡我們</a>
+    <a href="首頁.html">登出</a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+     }
+     
+     var mybutton = document.getElementById("myBtn");
+
+          
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+ mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+    </script>
+
+
+     <div class="header">
+       <h1>聯絡我們</h1>
+
+      </div>
+
+     <div class="information">
+      <div class="director">
+        <p>
+          <div id="dir_head"><H1><b>DIRRECTOR</b></H1></div>
+         <b>Student of IT114118/1B </b></br>
+          MR.CHAN TIN LOK</br>
+          MR.KONG HO MING</br>
+          Email:
+          <a href="mailto: 200108718@stu.vtc.edu.hk">CHAN TIN LOK</a>
+          <a href="mailto: 200083387@stu.vtc.edu.hk">KONG HO MING</a></br>
+          address: 21 Yuen Wo Road, Sha Tin, NT, Hong Kong</br>
+
+
+
+        </p>
+
+
+       </div>
+
+
+     <div class="googlemap" id=googlemap>
+      <div class="gmap_canvas">
+        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%E9%A6%99%E6%B8%AF%E6%B2%99%E7%94%B0%E5%8D%80%E6%B2%99%E7%94%B0%E7%A6%BE%E8%BC%8B%E6%BA%90%E7%A6%BE%E8%B7%AF21%E8%99%9F&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <a href="a href="https://sites.google.com/view/maps-api-v2/mapv2">
+        </a>">consoles</a>
+      </div>
+        <style>
+        .mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+        </style>
+      </div>
+    </div>
+    
+    <input type="hidden" name="none" value="none" /></br>
+    <input type="hidden" name="none" value="none" /></br>
+
+    <div class="form">
+    
+        <form name="contact form" > 
+      
+        <p class="table_title">查詢表格</p>
+        <table class="wrap_table">
+          <tr>
+            <td>
+              <table class="querytable">
+                <tbody>
+                  <tr>
+                  <th>查詢類別</th>
+                  <td>
+                    <select id="contactus_search_category" name="contactus[search_category]">
+                      <option value="一般查詢">一般查詢</option>
+                      <option value="改善建議">改善建議</option>
+                      <option value="投訴">投訴</option></select>
+                  </td>
+                  </tr>
+                <tr>
+                  <th><span>姓名</span></th>
+                  <td>
+                    <div>
+                      <span><input id="contactus_form_name" name="contactus[inquirer_name]" type="text"></span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th>稱謂</th>
+                  <td>
+                    <span><input checked="checked" id="contactus_appellation_" name="contactus[appellation]" type="radio" value="先生">先生</span>
+                    <span><input id="contactus_appellation_" name="contactus[appellation]" type="radio" value="女士">女士</span>
+                    <span><input id="contactus_appellation_" name="contactus[appellation]" type="radio" value="太太">太太</span>
+                    <span><input id="contactus_appellation_" name="contactus[appellation]" type="radio" value="小姐">小姐</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th><span>電子郵箱</span></th>
+                  <td>
+                    <div><input id="contactus_email_address" name="contactus[email_address]" type="text"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th>電話號碼</th>
+                  <td>
+                    <div><input id="contactus_phone_number" name="contactus[phone_number]" type="text"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th>回 覆</th>
+                  <td>
+                    <span><input checked="checked" id="contactus_reply_" name="contactus[reply]" type="radio" value="要">要</span>
+                    <span><input id="contactus_reply_" name="contactus[reply]" type="radio" value="否">否</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>查詢內容</th>
+                  <td><textarea id="contactus_content" name="contactus[content]"></textarea></td>
+                </tr>
+              </tbody></table>
+            </td>
+          </tr>
+          
+        </table>
+        <p class="submit"><button name="behavior" type="submit" value="confirm">確認內容</button></p>
+    </form>
+    </div>
+</body>
+</html>
